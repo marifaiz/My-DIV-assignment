@@ -1,0 +1,79 @@
+main{width: 100%;
+     margin: 0px;
+     padding: 0px;
+     display: flex;
+     font-weight: lighter; 
+     font-family: Arial, Helvetica, sans-serif;
+}
+#signup{
+    background-image: url(images/colourful.jpg);
+    width: 30%;
+    margin:10px 10%;
+    padding: 15px; 
+}
+#all{
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 12px 20px;
+    text-align: center;
+}
+a{text-decoration: none;}
+#login{
+    background-color: wheat;
+    width: 30%;
+    margin: 10px 10%;
+    padding: 15px;
+}
+.button{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    padding: 14px 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.button:hover{background-color: goldenrod;
+          border-radius:30px; 
+}
+#form .button{
+  background-color: orangered;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 25%;
+  width: 300px; 
+}
+#form .button:hover{
+    background-color: lightsalmon;
+}
+.for{
+    color: orangered;
+}
+input[type=password], input[type=text]{
+    width: 100%;
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    line-height: 1.5px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+} 
+h1{color: white;} 
+h5{
+    font-weight: lighter;
+    color: gray;
+} 
+
+
+
+  
+
+
+
+
+
+
+
+ 
+

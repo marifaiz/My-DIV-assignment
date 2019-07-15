@@ -1,0 +1,83 @@
+header{
+    color: lightblue;
+    font-size: 30px;
+    margin: 0px 10%;
+}
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: slategray; 
+}
+#form{
+    background-image: url(images/colorfulpic.jpg);
+    width: 30%;
+    margin:20px;
+    padding: 20px;
+}
+a{text-decoration: none;}
+li{
+    display: inline-flex;
+    float: left;
+}
+li a{
+    color: lightblue;
+    display: block;
+    text-align: center;
+    padding: 10px 14px;
+}
+#active{
+    float: right;
+    padding-top: 10px;
+}
+.signup{
+    color: white;
+}
+#search{
+    width: 70px;
+    display: inline;
+}
+h3{
+    color: burlywood;
+}
+input[type=text], input[type=number]{
+    width: 80%;
+    display: block;
+    padding: 10px 15px;
+    margin: 5px;
+    line-height: 1px;
+    border: 1px solid #ccc;
+}
+button{
+    color: white;
+    text-align: center;
+    border: 1px solid lightblue;
+    padding: 5px 10px;
+    display: block;
+    background-color:lightblue;
+    margin-bottom: 15px;
+    width: 20%;
+}
+table{
+    width: 50%;
+}
+table, td, th{
+    border: 1px solid black;
+    text-align: center;
+}
+#copyright{
+    color: blue;
+    margin: 30px;
+    padding-top: 10px;
+}
+footer{
+    background-color: slategray;
+}
+footer li{
+    color: lightblue;
+}
+
+
+
+    

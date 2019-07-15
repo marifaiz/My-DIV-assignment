@@ -1,0 +1,123 @@
+body{
+     text-align: center;
+}
+header{
+    color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(mediumblue,white,gray);
+    display: inline-block;
+    border-radius: 50%;
+    border: 50px solid lightskyblue;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.clock.simple:after{
+    height: 5%;
+    width: 2%;
+    content: "";
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, 100%);
+    border-radius: 50%;
+    z-index:0;
+}
+.sec, .min, .hour{
+    border-radius: 10px;
+    line-height: 45px;
+    color: white;
+    position: relative;
+    transform-origin: bottom;
+}
+.sec{
+    height: 250px;
+    width: 8px;
+    left: 240px;
+    background:radial-gradient(red,black);
+    z-index: 3;
+    animation: sec_anim 60s linear infinite;
+}
+.min{
+    height: 250px;
+    width: 12px;
+    background:radial-gradient(white,blue);
+    left: 242.5px;
+    top: -250px;
+    z-index: 2;
+    animation: min_anim 3500s linear infinite;
+}
+.hour{
+    height: 180px;
+    width: 15px;
+    left: 240px;
+    background: radial-gradient(black,yellow);
+    top: -430px;
+    z-index: 1;
+    animation: hour_anim 86400s linear infinite;
+}
+@keyframes sec_anim{
+     from{transform: rotateZ(0deg);}
+     to{transform: rotateZ(360deg);}
+}
+@keyframes min_anim{
+     from{transform: rotateZ(0deg);}
+     to{transform: rotateZ(360deg);}
+}
+@keyframes hour_anim{
+     from{transform: rotateZ(0deg);}
+     to{transform: rotateZ(360deg);}
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
+    font-family: Arial;
+    font-size: 3.7em;
+    color: darkblue;
+    position: relative;
+    z-index: 0;
+    text-shadow: 0 0 10px black;
+}
+.one{
+    top: -649px; left: 103px;
+}
+.two{
+    top: -640px; left: 182px;
+}
+.three{
+    top: -603px; left: 228px;
+}
+.four{
+    top: -564px; left: 183px;
+}
+.five{
+    top: -561px; left: 106px;
+}
+.six{
+    top: -590px;;
+}
+.seven{
+    top: -701px; left: -106px;
+}
+.eight{
+    top: -840px; left: -183px;
+}
+.nine{
+    top: -1016px; left: -228px;
+}
+.ten{
+    top: -1191px; left: -182px;
+}
+.eleven{
+    top: -1338px; left: -103px;
+}
+.twelve{
+    top: -1440px; 
+}
+
+    
+   
+   
